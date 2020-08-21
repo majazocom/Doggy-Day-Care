@@ -19,10 +19,19 @@ const app = new Vue({
 
 
 `
-<div id="app">
-    <h1>Dog care</h1>
-    {{dog}} is here
-</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Dog care</h1>
+        {{dog}} is here
+    </div>
+</body>
+</html>
 `
 
 
