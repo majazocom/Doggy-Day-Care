@@ -17,7 +17,6 @@ const app = new Vue({
 
 ### Once you have created your Vue instance, let's make use of it in your HTML
 
-
 <code>
         <html lang="en">
         <head>
