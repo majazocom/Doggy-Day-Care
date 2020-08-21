@@ -18,7 +18,7 @@ const app = new Vue({
 ### Once you have created your Vue instance, let's make use of it in your HTML
 
 
-`
+<code>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,6 +32,6 @@ const app = new Vue({
     </div>
 </body>
 </html>
-`
+</code>
 
 
