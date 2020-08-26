@@ -61,4 +61,22 @@ const app = new Vue({
         
  </code>
 
+### Instead of hard code a list of dogs, why not grab them from our API?
 
+<code>
+        const app = new Vue({
+        el: '#app',
+        data: {
+            dogs: []
+        },
+        created () {
+            fetch('https://api.jsonbin.io/b/5f33ff6c1823333f8f226715')
+            .then(response => response.json())
+            .then(json => {
+                this.dogs = json.dogs
+            })
+        }
+    })</code>
+        
+        
+     
