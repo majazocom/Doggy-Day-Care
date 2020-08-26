@@ -64,6 +64,7 @@ const app = new Vue({
 ### Instead of hard code a list of dogs, why not grab them from our API?
 
 <code>
+        
         const app = new Vue({
         el: '#app',
         data: {
