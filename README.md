@@ -54,9 +54,11 @@ const app = new Vue({
 ### To be able to iterate over our list of dogs, we got to make use of Vue's "v-for"
 
 <code>
+        
         <li v-for="dog in dogs">
             {{dog}}
         </li>
+        
  </code>
 
 
