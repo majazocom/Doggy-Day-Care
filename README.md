@@ -74,7 +74,7 @@ const app = new Vue({
             fetch('https://api.jsonbin.io/b/5f33ff6c1823333f8f226715')
             .then(response => response.json())
             .then(json => {
-                this.dogs = json.dogs
+                this.dogs = json.dogs      // this.dogs = the dogs in your data of your current instance
             })
         }
     })</code>
