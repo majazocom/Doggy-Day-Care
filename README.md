@@ -39,15 +39,15 @@ const app = new Vue({
 ### Let's add some more dogs to the party!
 
 <code>
-    const app = new Vue({
-        el: '#app',
-        data: {
-            dogs: ['chihuahua',
-                'poodle',
-                'rottweiler'
-            ]
-        }
-    })
+        const app = new Vue({
+                el: '#app',
+                data: {
+                    dogs: ['chihuahua',
+                        'poodle',
+                        'rottweiler'
+                    ]
+                }
+        })
 </code>
 
 
