@@ -81,4 +81,4 @@ const app = new Vue({
     
 The created hook allows you to add code which is run if the Vue instance is created. Created is a step in Vue's lifecycle.
 
-
+![Image of current outcome](./dogcarelesson3.jpg "The outcome of our fetch")
