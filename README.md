@@ -78,6 +78,7 @@ const app = new Vue({
             })
         }
     })</code>
-        
-        
-     
+    
+The created hook allows you to add code which is run if the Vue instance is created. Created is a step in Vue's lifecycle.
+
+
