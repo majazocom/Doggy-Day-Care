@@ -4,6 +4,7 @@
 
 This is a link to an API filled with [dogs](https://api.jsonbin.io/b/5f33ff6c1823333f8f226715 "Dog API").
 
+
 ### Initialize the Vue instance with some room for the doggies!
 <code>
 const app = new Vue({
@@ -13,6 +14,7 @@ const app = new Vue({
         }
     })
 </code>
+
 
 ### Once you have created your Vue instance, let's make use of it in your HTML
 <code>
@@ -31,10 +33,12 @@ const app = new Vue({
         </html>
 </code>
 
+
 ### Don't forget to include the CDN 
 <code>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </code> 
+
 
 ### Let's add some more dogs to the party!
 
@@ -51,6 +55,7 @@ const app = new Vue({
 </code>
 
 
+
 ### To be able to iterate over our list of dogs, we got to make use of Vue's "v-for"
 
 <code>
@@ -60,6 +65,7 @@ const app = new Vue({
         </li>
         
  </code>
+
 
 ### Instead of hard code a list of dogs, why not fetch them from our API?
 
@@ -82,6 +88,7 @@ const app = new Vue({
 The created hook allows you to add code which is run if the Vue instance is created. Created is a step in Vue's lifecycle.
 
 ![Image of current outcome](./dogcarelesson3.jpg "The outcome of our fetch")
+
 
 ### That didn't look that very pretty
 #### Let's change that
