@@ -61,7 +61,7 @@ const app = new Vue({
         
  </code>
 
-### Instead of hard code a list of dogs, why not grab them from our API?
+### Instead of hard code a list of dogs, why not fetch them from our API?
 
 <code>
         
@@ -82,3 +82,13 @@ const app = new Vue({
 The created hook allows you to add code which is run if the Vue instance is created. Created is a step in Vue's lifecycle.
 
 ![Image of current outcome](./dogcarelesson3.jpg "The outcome of our fetch")
+
+### That didn't look that very pretty
+#### Let's change that
+<code>
+        <li v-for="dog in dogs">
+            {{ dog.amount }} {{dog.breed}}
+        </li></code>
+        
+        
+### 
