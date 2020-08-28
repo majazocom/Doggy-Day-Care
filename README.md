@@ -85,7 +85,8 @@ The created hook allows you to add code which is run if the Vue instance is crea
 
 ### That didn't look that very pretty
 #### Let's change that
-<code>
+<code> 
+        
         <li v-for="dog in dogs">
             {{ dog.amount }} {{dog.breed}}
         </li>
